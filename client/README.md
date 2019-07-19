@@ -1,4 +1,4 @@
-# tracker-front
+# client
 
 > A Vue.js project
 
