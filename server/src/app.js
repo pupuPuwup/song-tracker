@@ -14,5 +14,11 @@ app.get('/status', (req, res) => {
     })
 })
 
+app.post('/register', (req, res) => {
+    res.send({
+        message: `hello ${req.body.email}, your user was registered`
+    })
+})
+
 const port = 8081;
 app.listen(port, console.log(`server run on port ${port}`))
